@@ -1,0 +1,8 @@
+torch
+torchsummary 
+torchvision
+imageio
+numpy
+pillow
+matplotlib
+tqdm
