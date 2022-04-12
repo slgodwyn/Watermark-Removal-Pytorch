@@ -1,5 +1,7 @@
 import argparse
 from api import remove_watermark
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 parser = argparse.ArgumentParser(description = 'Removing Watermark')
 parser.add_argument('--image-path', type = str, default = './data/watermark-unavailable/watermarked/watermarked0.png', help = 'Path to the "watermarked" image.')
