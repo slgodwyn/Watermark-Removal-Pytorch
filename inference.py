@@ -19,9 +19,9 @@ remove_watermark(
     image_path = args.image_path,
     mask_path = args.mask_path,
     max_dim = args.max_dim,
-    show_step = args.show_step,
+    show_step = 20000,
     reg_noise = args.reg_noise,
-    input_depth = args.input_depth,
+    input_depth = 64,
     lr = args.lr,
-    training_steps = args.training_steps,
+    training_steps = 100000,
 )
